@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="344dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/house" />
+
+    <TextView
+        android:id="@+id/tvThis is  an house picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="404dp"
+        android:text="This is  an house picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrevious"
+        android:layout_width="101dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="312dp"
+        android:text="previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvThis is  an house picture"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="312dp"
+        android:text="Next"
+        app:layout_constraintStart_toEndOf="@+id/btnPrevious"
+        app:layout_constraintTop_toBottomOf="@+id/tvThis is  an house picture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
